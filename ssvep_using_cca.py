@@ -1,5 +1,4 @@
-import scripts
-from scripts import ssvep_utils as su
+import ssvep_utils as su
 import scipy.io as sio
 from sklearn.cross_decomposition import CCA
 from sklearn.metrics import confusion_matrix
